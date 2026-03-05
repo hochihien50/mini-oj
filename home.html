@@ -1,0 +1,12 @@
+<h1>Mini OJ</h1>
+
+<a href="/rank">Ranking</a>
+
+<ul>
+{% for p in problems %}
+<li>
+{{p}} -
+<a href="/submit/{{p}}">Submit</a>
+</li>
+{% endfor %}
+</ul>
